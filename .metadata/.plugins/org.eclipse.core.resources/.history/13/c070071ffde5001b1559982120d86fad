@@ -1,0 +1,3 @@
+spring.security.user.name=itzel
+spring.security.user.password=dante
+

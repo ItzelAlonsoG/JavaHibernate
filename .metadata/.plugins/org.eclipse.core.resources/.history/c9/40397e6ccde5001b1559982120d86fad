@@ -1,0 +1,5 @@
+package com.platzi.ereservation.negocio.repository;
+
+public interface ReservaRepository {
+
+}

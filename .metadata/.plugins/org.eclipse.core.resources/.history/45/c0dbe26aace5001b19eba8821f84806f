@@ -1,0 +1,5 @@
+package com.platzi.ereservation.modelo;
+
+public class Reserva {
+
+}

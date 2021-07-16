@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.platzi.ereservation.modelo;
+
+/**
+ * @author itzel.alonso
+ *
+ */
+public class Cliente {
+
+}

@@ -1,0 +1,15 @@
+package com.platzi.ereservation.vista.resources;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * Clase que representa el servicio web de cliente
+ * @author itzel.alonso
+ * */
+
+@RestController
+@RequestMapping("/cliente")
+public class ClienteResource {
+
+}

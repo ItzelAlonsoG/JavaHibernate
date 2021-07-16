@@ -1,0 +1,5 @@
+package com.platzi.ereservation.vista.resources;
+
+public class LoginController {
+
+}

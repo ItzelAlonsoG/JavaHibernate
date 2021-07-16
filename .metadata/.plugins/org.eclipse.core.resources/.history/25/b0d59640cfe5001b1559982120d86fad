@@ -1,0 +1,14 @@
+package com.platzi.ereservation.negocio.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.platzi.ereservation.modelo.Cliente;
+
+/**
+ * Interface para definir las operaciones de BD relacioadas con el cliente
+ * @author itzel.alonso
+ * 
+ * */
+public interface ClienteRepository extends JpaRepository<Cliente,String>{
+
+}

@@ -1,0 +1,5 @@
+package com.platzi.ereservation.util;
+
+public class SwaggerConfiguration {
+
+}

@@ -1,0 +1,49 @@
+/**
+ * 
+ */
+package com.platzi.ereservation.modelo;
+
+import java.util.Set;
+
+import javax.persistence.*;
+import javax.persistence.Entity;
+
+import org.hibernate.annotations.GenericGenerator;
+
+import lombok.Data;
+
+/**
+ * Clase que representa la tabla Cliente. 
+ *@author itzel.alonso
+ *@since 2021
+ *@version 1.0
+ */
+
+@Data 
+@Entity
+@Table(name = "cliente")
+public class Cliente {
+	
+	@Id
+	@GeneratedValue(generator = "system-uuid")
+	@GenericGenerator(name = "system-uuid", strategy = "uiid2")
+	private String idCli;
+	
+	private String nombreCli;
+	private String apellicoCli;
+	private String indentificacionCli;
+	private String direccionCli;
+	private String telefonoCli;
+	private String emailCli;
+	
+	@OneToMany(mappedBy="cliente")
+	private Set<Reserva> reservas;
+	
+
+	public Cliente () {}
+	
+	
+	
+	
+	
+}

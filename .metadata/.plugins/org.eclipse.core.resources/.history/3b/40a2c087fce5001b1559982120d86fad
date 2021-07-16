@@ -1,0 +1,13 @@
+package com.platzi.ereservation.util;
+
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * Clase para manejar temas de seguridad
+ * 
+ * @author itzel.alonso
+ * */
+@Configuration
+public class BasicConfiguration {
+
+}
