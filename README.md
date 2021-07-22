@@ -93,4 +93,4 @@ You can search this information in [Maven repository](https://mvnrepository.com/
 
 # Information
 
-for more you can check the [Java Hibernate coruse](https://platzi.com/clases/jee/ )
+for more you can check the [Java Hibernate course](https://platzi.com/clases/jee/ )
